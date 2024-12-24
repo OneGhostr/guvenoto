@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;		
+}
+.container {
+height:50px;	
+}
+.sidebarmenu ul {
+    list-style-type: none;	
+padding: 10px 0;
+}
+.sidebarmenu .logo{
+    
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 15px;
+        left: 45px;  
+}
+.sidebarmenu ul li a{
+text-decoration: none;	
+display:block;
+color:#fff;	 
+padding: 30px 0px 10px 25px;               
+border-bottom:1px solid orangered;         
+
+}
+.sidebarmenu {
+backdrop-filter: blur(25px);
+position: fixed;
+width: 200px;
+height: 100%;
+left: -200px;
+padding-top:50px; 
+transition: all 0.5s ease-in;	
+margin-top:52px;
+}
+.sidebarmenu ul i {
+    margin-right:10px;
+}
+.sidebarmenu ul li a:hover {
+color: rgb(255, 255, 255); 
+transition: all 1s; 
+padding-left: 35px;     
+}
+#checkbox {
+display:none;
+
+}
+
+label #menu {
+color:rgb(4, 1, 0); 
+cursor: pointer;
+position: fixed;
+z-index:999;
+left:20px;	
+top:20px;       
+}
+
+label #menu:hover {
+   font-size: 1.5rem;	
+}
+
+#checkbox:checked ~ .sidebarmenu {
+left:0;
+}
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-box {
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    padding: 40px 30px;
+    text-align: center;
+    height:350px ;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f9f9f9;
+    color: #000000;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #9face6;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6a89cc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2b49c3;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+a {
+    color: #5c88e7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.alt_bilgi {
+    background-color: #433405;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+  }
+  
+  .anafont .sosyal_medya {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
+    height: auto;
+    margin: 50px; 
+  }
+  .anafot .sosyal_medya .duzen{
+    text-decoration:none;
+  }
+  .alt_bilgi {
+    height: auto; 
+    margin-top: 140px; 
+  }
+  .anafot {
+    margin-top: -50px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .anafot .sosyal_medya p{
+    padding-top: 0px;
+   text-align: center;
+  }
+  .anafot .sosyal_medya2 p{
+    padding-top: 30px;
+  }
+  .anafot img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+  .anafot .sosyal_medya2{
+   margin-right: 150px; 
+  }
+  .anafot .sosyal_medya ,.sosyal_medya2{
+    width:500px; 
+    height: 200px; 
+    background-color: #f7dc9ae0; 
+    float: left; 
+    margin: 20px; 
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-top: 25px;
+  }

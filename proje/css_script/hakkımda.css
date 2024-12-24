@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;		
+}
+.container {
+height:50px;	
+}
+.sidebarmenu ul {
+    list-style-type: none;	
+padding: 10px 0;
+}
+.sidebarmenu .logo{
+    
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 15px;
+        left: 45px;  
+}
+.sidebarmenu ul li a{
+text-decoration: none;	
+display:block;
+color:#fff;	 
+padding: 30px 0px 10px 25px;               
+border-bottom:1px solid orangered;         
+
+}
+.sidebarmenu {
+backdrop-filter: blur(25px);
+position: fixed;
+width: 200px;
+height: 100%;
+left: -200px;
+padding-top:50px; 
+transition: all 0.5s ease-in;	
+margin-top:52px;
+}
+.sidebarmenu ul i {
+    margin-right:10px;
+}
+.sidebarmenu ul li a:hover {
+color: rgb(255, 255, 255); 
+transition: all 1s; 
+padding-left: 35px;     
+}
+#checkbox {
+display:none;
+
+}
+
+label #menu {
+color:rgb(4, 1, 0); 
+cursor: pointer;
+position: fixed;
+z-index:999;
+left:20px;	
+top:20px;       
+}
+
+label #menu:hover {
+   font-size: 1.5rem;	
+}
+
+#checkbox:checked ~ .sidebarmenu {
+left:0;
+}
+@keyframes slideIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.kutu{
+    width: 1100px;
+    height: 870px;
+    margin-top: 30px;
+    margin-left: 280px; 
+    border-radius: 30px;
+    backdrop-filter: blur(2px);
+}
+.kutu p{
+    text-align: justify;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-left: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 20px #3a537e, 0 0 40px #000508 ;
+    animation: slideIn 3s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.kutu h1{
+    color: #ffffff;
+    animation: slideIn 2s ease-in-out forwards;
+    opacity: 0;
+    transform: translateY(-30px);
+    padding-left: 70px;
+    padding-bottom: 20px;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 50px;
+    text-shadow: 0 0 20px #3e275a, 0 0 40px #0081bc;
+    text-align: center;
+}
+.alt_bilgi {
+    background-color: #433405;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+  }
+  
+  .anafont .sosyal_medya {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
+    height: auto;
+    margin: 50px; 
+  }
+  .anafot .sosyal_medya .duzen{
+    text-decoration:none;
+  }
+  .alt_bilgi {
+    height: auto; 
+    margin-top: 50px; 
+  }
+  .anafot {
+    margin-top: -50px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .anafot .sosyal_medya p{
+    padding-top: 0px;
+   text-align: center;
+  }
+  .anafot .sosyal_medya2 p{
+    padding-top: 30px;
+  }
+  .anafot img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+  .anafot .sosyal_medya2{
+   margin-right: 150px; 
+  }
+  .anafot .sosyal_medya ,.sosyal_medya2{
+    width:500px; 
+    height: 200px; 
+    background-color: #f7dc9ae0; 
+    float: left; 
+    margin: 20px; 
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-top: 25px;
+  }
+  
